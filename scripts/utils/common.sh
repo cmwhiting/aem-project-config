@@ -18,9 +18,8 @@ AEM_JAR_5_6_1="$DIR_AEM_JAR/5.6.1/aem-quickstart-5.6.1.jar";
 
 ## Startup Command Generation
 HEAP_SIZE="2g";
-CQ_JVM_OPTS='-agentlib:jdwp=transport=dt_socket,server=y,address=30303,suspend=n';
 HEAP_OPTS="-Xms$HEAP_SIZE -Xmx$HEAP_SIZE";
-JVM_OPTS="-server $HEAP_OPTS $CQ_JVM_OPTS";
+JVM_OPTS="-server $HEAP_OPTS";
 
 source "$DIR_SCRIPTS/utils/flags.sh"
 source "$DIR_SCRIPTS/utils/runmodes.sh"
