@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sh ./scripts/start/start.publish.sh
+sh ../scripts/start/start.publish.sh

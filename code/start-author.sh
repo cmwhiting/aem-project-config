@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sh ./scripts/start/start.author.sh
+sh ../scripts/start/start.author.sh
